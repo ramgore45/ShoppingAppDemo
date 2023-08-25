@@ -17,6 +17,7 @@ const Navbar = () => {
 
     <div className='flex gap-x-9 justify-center items-center'>
       <p className='uppercase text-[16px] font-semibold'><NavLink to='/'> Home</NavLink></p>
+      <p className='uppercase text-[16px] font-semibold text-red-500'><NavLink to='/login'> Log IN</NavLink></p>
       <p className='relative cursor-pointer'>
       <NavLink to='/cart'>
         <FaShoppingCart className='text-[30px]'/>

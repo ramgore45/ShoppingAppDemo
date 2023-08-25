@@ -6,5 +6,4 @@ export const  CartStore = configureStore({
     reducer:{
         cart:cartSlice,
     },
-}
-) 
+}) 
